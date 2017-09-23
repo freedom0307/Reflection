@@ -1,0 +1,7 @@
+E:\专业学习\C#\Project\Reflection\DB.SqlServer\bin\Debug\DB.SqlServer.dll
+E:\专业学习\C#\Project\Reflection\DB.SqlServer\bin\Debug\DB.SqlServer.pdb
+E:\专业学习\C#\Project\Reflection\DB.SqlServer\bin\Debug\DB.Interface.dll
+E:\专业学习\C#\Project\Reflection\DB.SqlServer\bin\Debug\DB.Interface.pdb
+E:\专业学习\C#\Project\Reflection\DB.SqlServer\obj\Debug\DB.SqlServer.dll
+E:\专业学习\C#\Project\Reflection\DB.SqlServer\obj\Debug\DB.SqlServer.pdb
+E:\专业学习\C#\Project\Reflection\DB.SqlServer\obj\Debug\DB.SqlServer.csprojResolveAssemblyReference.cache

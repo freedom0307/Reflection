@@ -1,0 +1,7 @@
+E:\专业学习\C#\Project\Reflection\DB.Mysql\bin\Debug\DB.Mysql.dll
+E:\专业学习\C#\Project\Reflection\DB.Mysql\bin\Debug\DB.Mysql.pdb
+E:\专业学习\C#\Project\Reflection\DB.Mysql\bin\Debug\DB.Interface.dll
+E:\专业学习\C#\Project\Reflection\DB.Mysql\bin\Debug\DB.Interface.pdb
+E:\专业学习\C#\Project\Reflection\DB.Mysql\obj\Debug\DB.Mysql.csprojResolveAssemblyReference.cache
+E:\专业学习\C#\Project\Reflection\DB.Mysql\obj\Debug\DB.Mysql.dll
+E:\专业学习\C#\Project\Reflection\DB.Mysql\obj\Debug\DB.Mysql.pdb

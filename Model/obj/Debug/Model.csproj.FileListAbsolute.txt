@@ -1,0 +1,4 @@
+E:\专业学习\C#\Project\Reflection\Model\bin\Debug\Model.dll
+E:\专业学习\C#\Project\Reflection\Model\bin\Debug\Model.pdb
+E:\专业学习\C#\Project\Reflection\Model\obj\Debug\Model.dll
+E:\专业学习\C#\Project\Reflection\Model\obj\Debug\Model.pdb

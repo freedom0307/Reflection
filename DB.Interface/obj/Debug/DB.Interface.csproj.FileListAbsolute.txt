@@ -1,0 +1,5 @@
+E:\专业学习\C#\Project\Reflection\DB.Interface\bin\Debug\DB.Interface.dll
+E:\专业学习\C#\Project\Reflection\DB.Interface\bin\Debug\DB.Interface.pdb
+E:\专业学习\C#\Project\Reflection\DB.Interface\obj\Debug\DB.Interface.csprojResolveAssemblyReference.cache
+E:\专业学习\C#\Project\Reflection\DB.Interface\obj\Debug\DB.Interface.dll
+E:\专业学习\C#\Project\Reflection\DB.Interface\obj\Debug\DB.Interface.pdb

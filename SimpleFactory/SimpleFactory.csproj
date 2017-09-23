@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3ABD7354-840D-475C-965A-874A9CCBA1D9}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{7EF3EEDD-A256-4061-A85A-9C319801738A}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Reflection</RootNamespace>
-    <AssemblyName>Reflection</AssemblyName>
+    <RootNamespace>SimpleFactory</RootNamespace>
+    <AssemblyName>SimpleFactory</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,12 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Factory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DB.Interface\DB.Interface.csproj">
@@ -57,6 +52,14 @@
     <ProjectReference Include="..\DB.Mysql\DB.Mysql.csproj">
       <Project>{92ea0f9c-58ed-448b-865f-73a100d14330}</Project>
       <Name>DB.Mysql</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DB.Oracle\DB.Oracle.csproj">
+      <Project>{cd995fd9-6aaf-4b44-b23c-a8e6e51b1193}</Project>
+      <Name>DB.Oracle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DB.SqlServer\DB.SqlServer.csproj">
+      <Project>{c783d3f8-9ebc-4672-bd2c-f13939e22a05}</Project>
+      <Name>DB.SqlServer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
